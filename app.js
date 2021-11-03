@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 5000
 const path = require('path')
 var cors = require('cors')
-app.use(cors(["localhost:5000", "localhost:3000","https://my-server-pi-call.herokuapp.com/"]));
+app.use(cors(["localhost:5000", "localhost:3000","https://my-server-pi-call.herokuapp.com"]));
 
 
 app.use(express.json())
