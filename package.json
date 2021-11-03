@@ -1,0 +1,25 @@
+{
+  "name": "server_api_call",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Aliyan Hussain",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aliyanishere/My_server_api-call.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aliyanishere/My_server_api-call/issues"
+  },
+  "homepage": "https://github.com/Aliyanishere/My_server_api-call#readme",
+  "description": ""
+}
